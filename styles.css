@@ -1,0 +1,184 @@
+body{
+    font-family:'Ubuntu', sans-serif;
+}
+
+
+
+#title{
+    background-color: palevioletred;
+    color: seashell;
+}
+.tittle-image{
+    transform: rotate(25deg); 
+    position: absolute;
+   
+
+}
+
+.image{ 
+    
+   position: relative;
+ margin: auto;
+ background-color: brown;
+}
+h1,h2,h3,h4,h5,h6{font-family: 'Ubuntu', sans-serif;}
+p{
+    color: crimson;
+}
+/*heading*/
+
+ .big-heading{font-family:'Ubuntu', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+
+ }
+ .price-heading{
+     font-size: 3rem;
+     line-height: 1.5;
+ }
+
+
+
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+
+  /*--navbar--*/
+
+
+  .navbar{
+      padding: 0 0  4.5rem;
+  }
+  .navbar-brand{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  }
+  .nav-item{
+    padding-left: 15%;
+    padding-right: 15%;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    font-size: 1.2rem;
+}
+
+
+
+/*features*/
+
+  #features{
+      padding: 7% 15%;
+      background-color:#fff;
+      position:relative;
+      z-index:1;
+  }
+
+  .feature-box{
+      text-align: center;
+      padding: 5%;
+  }
+
+  
+   #features{
+       background-color: f;
+   }
+
+   .feature-tittle{
+       font-size: 1.5;
+   }
+  /*buttons*/
+
+
+
+   .download-button{
+       margin: 5% 3% 5% 0%;
+   }
+
+   .icon{color: rgb(161, 43, 146);
+    margin-bottom: 1rem;
+
+}
+
+.icon:hover{
+    color: palevioletred;
+}
+
+   /* testimonials */
+   #testimonials{
+       padding: 7%15%;
+       text-align: centre;
+       background-color: rgb(240, 145, 153);
+       color:#fff;
+
+   }
+
+   .testimonial-image{
+       width: 10%;
+       border-radius: 100%;
+       margin: 20px;
+     
+   }
+
+   .testimonial-text{
+       font-size: 3rem;
+       line-height: 1.5;
+   }
+   .carousel-item{
+       padding: 7% 15%;
+   }
+
+   #press{
+    background-color: rgb(240, 145, 153);
+    text-align: center;
+    padding-bottom: 3px;
+
+   }
+
+   .press-logo{
+       width: 55px;
+       margin: 20px 20px 70px;
+   }
+   #pricing{
+       padding: 100px;
+       text-align: center;
+   }
+
+    .price{
+        font-size: 3rem;
+        line-height: 1.5;
+    }
+
+   .pricing-coloumn{
+       padding: 3%2%;
+   }
+
+    .cta-heading{
+        font-family: "montserrat-black";
+        font-size: 3.5rem;
+        line-height: 1.5;
+    }
+    #footer{padding: 7%15%;
+    text-align: center;}
+   
+
+    #cta{ background-color:  rgb(240, 145, 153);
+    color: #fff;
+     padding: 7% 15%;
+     text-align: center;
+}
+
+   @media (max-width: 1028px){
+       #tittle{
+           text-align: center;
+       }
+       .tittle-image{
+           position:static;
+           transform: rotate(0);
+       }
+   }
+
+   .social{
+       margin: 20px 10px;
+       
+   }
